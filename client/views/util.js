@@ -28,4 +28,4 @@ export const linkToParentAddr = (addr, label=addr) =>
 
 export const linkToAddr = addr => <a href={`address/${addr}`}>{addr}</a>
 
-export const addressQR = addr => qruri(`bitcoin:${addr}`, { margin: 2 })
+export const addressQR = addr => qruri(`syscoin:${addr}`, { margin: 2 })
